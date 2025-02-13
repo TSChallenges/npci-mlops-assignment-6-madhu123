@@ -31,4 +31,4 @@ def train_model(data_path: str, model_path: str):
     print(f"Model saved to {model_path}")
 
 if __name__ == "__main__":
-    train_model("data/bank_marketing.csv", "models/bank_model.pkl")
+    train_model("data/processed_data.csv", "models/bank_model.pkl")
